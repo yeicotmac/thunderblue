@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: thunderblue
+  host: thunderblue
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Compose for MySQL-x3
+  - Object Storage-n2
+  - ClearDB MySQL Database-ca
